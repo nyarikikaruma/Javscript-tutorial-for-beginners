@@ -1,3 +1,10 @@
-const user = 'James ';
+const userNumber =  '900';
 
-console.log(user + 4);
+const changedNumber = Number(userNumber);
+
+// printing type converted  values
+console.log(changedNumber + 899);
+
+
+// printing type coerced values
+console.log(userNumber + 899);
