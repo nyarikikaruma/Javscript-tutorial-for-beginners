@@ -18,4 +18,4 @@ let blog = {
 }
 
 console.log(blog['audience']);
-console.log(blog.title);
+console.log(blog.titlevvvvvvvvv);
