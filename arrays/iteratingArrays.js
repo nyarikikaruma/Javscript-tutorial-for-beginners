@@ -1,4 +1,4 @@
-const myLanguages =  ['JavaScript', 'Java', 'Ruby', 'Python', 'Pascal', 'Kotlin', 'Visual Basic', 'C#', 'C++', 'C']
+const myLanguages =  ['PHP', 'JavaScript', 'Java', 'Ruby', 'Python', 'Pascal', 'Kotlin', 'Visual Basic', 'C#', 'C++', 'C']
 
 // for loop
 for(i = 0; i<myLanguages.length; i++) {
@@ -48,3 +48,7 @@ function myFunction(total, value, index, array) {
   return total + value;
 }
 console.log(sum);
+
+// indexOf()
+let indexOfPHP =  myLanguages.indexOf('PHP');
+console.log(indexOfPHP);
