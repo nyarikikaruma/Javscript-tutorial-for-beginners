@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div 
+    style="margin: auto;
+    top: 50%;
+    width: 50%;
+    border: 3px solid green;
+    text-align: center;
+    position: relative;
+    padding: 10px;">
+    <form  action="/submit" method="POST">
+        <p>
+            <label>Username : <input type="text" /></label>
+        </p>
+        <p>
+            <label>Password : <input type="password" /></label>
+        </p>
+        <p>
+            <!-- Using button to submit data -->
+            <button onclick="submitForm()" type="submit">Submit</button>
+
+            <!-- Using input of type submit to submit -->
+            <input onclick="submitInput()" type="submit" value="Submit">
+        </p>
+    </form>
+
+    </div>
+</body>
+</html>
